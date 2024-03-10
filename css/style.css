@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+    box-sizing:border-box;
+}
+.header{
+    display: flex;
+    height: 60px;
+    margin: 0px 80px;
+    position:sticky;
+    top: 0px;
+    z-index: 1000;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    padding: 0px 0px 1px 10px;
+}
+.header .logo a
+{
+    color: blueviolet;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 60px;
+}
+.header .navBar
+{
+    right: 0px;
+    line-height: 60px;
+    position: absolute;
+}
+.navBar ul
+{
+    display: flex;
+}
+.navBar ul li
+{
+list-style: none;
+margin: 0px 40px;
+text-align: right;
+}
+.navBar ul li a
+{
+text-decoration: none;
+color: blueviolet;
+}
+.navBar ul li a:hover
+{
+    text-decoration: underline 2px solid blueviolet ;
+}
+
+/* bodyPart css  */
+.bodyPart
+{
+background-color: rgb(148, 63, 226);
+height: 90vh;
+padding: 100px 80px 0px 80px;
+}
+.bodyPart .data
+{
+    width: 100%;
+    color: rgb(208, 204, 204);
+    text-align: center;
+   font-size: xx-large;
+}
+.bodyPart .data span
+{
+    color: white;
+}
+.bodyPart .images img
+{
+    height: 350px;
+}
+.bodyPart .btn
+{
+    text-align: center;
+}
+.bodyPart .btn button{
+    outline: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    width: 180px;
+    height: 50px;
+    margin-left: 100px;
+    background-color: blueviolet;
+    color: white;
+}
+.bodyPart .btn button:hover
+{
+    border: 1px solid blueviolet;
+    color:blueviolet;
+    background-color: white;
+}
+/* about part  */
+.about
+{
+    color: blueviolet;
+    padding: 100px 80px 0px 80px;
+}
+.about h1
+{
+    text-align: center;
+}
+.box
+{
+    display: flex;
+}
+.about .data
+{
+    width: 60%;
+}
+.about .data h2
+{
+    margin-top: 50px;
+    font-size: xx-large;
+    width: 70%;
+}
+.about .data p
+{
+    margin-top: 50px;
+
+}
+.about .image
+{
+    width: 40%;
+    padding-top: 30px;
+}
+.image img
+{
+  height: 350px;
+}
+
+/* services part */
+.services
+{
+    padding: 100px 80px 0px 80px;
+}
+.services h1
+{
+    text-align: center;
+    color: blueviolet;
+}
+.services h2
+{
+    text-align: center;
+    color: blueviolet;
+    padding-top:5px;
+}
+.services .section1
+{
+    display: flex;
+    padding-top: 20px;
+}
+.services .section1 .sBox
+{
+    width: 450px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 30px;
+    padding: 20px;
+    background-color: rgb(203, 173, 232);
+}
+.services .section1 .sBox:hover
+{
+    background-color: white;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+}
+.services .section1 .sBox h3{
+    color: blueviolet;
+}
+/* number of completed projects  */
+.dataProject
+{
+    margin-top: 100px;
+    padding: 0px 80px 0px 80px;
+    display: flex;
+    background-color: blueviolet;
+    height: 400px;
+}
+.dataProject .dataBox
+{
+    width: 800px;
+    height: 130px;
+    text-align: center;
+    margin-top: 140px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: x-large;
+}
+.dataProject .dataBox:hover
+{
+    color: white;
+    border: 1px solid white;
+}
+.dataProject .dataBox h2
+{
+    color: white;
+}
+.dataProject .dataBox p
+{
+    color: white;
+}
+/* contact page  */
+.contact
+{
+    padding: 100px 80px 0px 80px;
+}
+.contact h1
+{
+    text-align: center;
+    color: blueviolet;
+}
+.contact p
+{
+    margin-top: 10px;
+    text-align: center;
+    color: blueviolet;
+} 
+.contact .form
+{
+    margin-top: 50px;
+text-align: center;
+}
+.contact .form input
+{
+    width: 850px;
+    height: 30px;
+    outline: none;
+    border-radius: 20px;
+    border: 1px solid blueviolet;
+    margin-top: 10px;
+    padding: 30px;
+}
+.contact .form textarea
+{
+    width: 850px;
+    height: 60px;
+    padding: 20px;
+    margin-top: 10px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid blueviolet;
+}
+.contact .form button
+{
+    margin-top: 10px;
+    outline: none;
+    border-radius: 20px;
+    border: 1px solid blueviolet;
+    width: 150px;
+    height: 50px;
+    color: blueviolet;
+    cursor: pointer;
+    background-color: white;
+}
+.contact .form button:hover
+{
+    background-color: blueviolet;
+    color: black;
+}
+
+/* footer  */
+.footer
+{
+    padding: 30px 80px 20px 80px;
+    display: flex;
+    background-color: blueviolet;
+    margin-top: 50px;
+}
+.footer .fbox
+{
+    width: 800px;
+    color: white;
+}
+.footer .fbox ul li
+{
+    list-style: none;
+}
+.footer .fbox p,li
+{
+    padding-top: 10px;
+}
+.footer .fbox input
+{
+    width: 80%;
+    height: 20px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid blueviolet;
+    margin-top: 10px;
+    padding: 20px;
+}
+.footer .fbox h3{
+    text-align: center;
+}
+.footer .ss
+{
+    cursor: pointer;
+}
+.footer .ss i
+{
+    color: white;
+    width: 80px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.foot
+{
+    background-color: blueviolet;
+}
+.foot p{
+    text-align: center;
+    color: white;
+    padding: 10px 10px 10px 0px;
+}
